@@ -57,16 +57,16 @@
         }
         switch (unidadeOriginal) {
             case "Centímetros":
-                resultado = converterParaCentimetros(valorDeEntrada, unidadeFinal);
+                resultado = converterCentimetrosParaUnidadeFinal(valorDeEntrada, unidadeFinal);
                 break;
             case "Metros":
-                resultado = converterParaMetros(valorDeEntrada, unidadeFinal);
+                resultado = converterMetrosParaUnidadeFinal(valorDeEntrada, unidadeFinal);
                 break;
             case "Quilômetros":
-                resultado = converterParaQuilometros(valorDeEntrada, unidadeFinal);
+                resultado = converterQuilometrosUnidadeFinal(valorDeEntrada, unidadeFinal);
                 break;
             case "Milhas":
-                resultado = converterParaMilhas(valorDeEntrada, unidadeFinal);
+                resultado = converterMilhasParaUnidadeFinal(valorDeEntrada, unidadeFinal);
                 break;
         }
 
@@ -86,7 +86,7 @@
             }
         }
 
-        private double converterParaCentimetros(double value, String unidadeFinal) {
+        private double converterCentimetrosParaUnidadeFinal(double value, String unidadeFinal) {
             switch (unidadeFinal) {
                 case "Metros":
                     return value / 100;
@@ -99,7 +99,7 @@
             }
         }
 
-        private double converterParaMetros(double value, String unidadeFinal) {
+        private double converterMetrosParaUnidadeFinal(double value, String unidadeFinal) {
             switch (unidadeFinal) {
                 case "Centímetros":
                     return value * 100;
@@ -112,7 +112,7 @@
             }
         }
 
-        private double converterParaQuilometros(double value, String unidadeFinal) {
+        private double converterQuilometrosUnidadeFinal(double value, String unidadeFinal) {
             switch (unidadeFinal) {
                 case "Centímetros":
                     return value * 100000;
@@ -125,7 +125,7 @@
             }
         }
 
-        private double converterParaMilhas(double value, String unidadeFinal) {
+        private double converterMilhasParaUnidadeFinal(double value, String unidadeFinal) {
             switch (unidadeFinal) {
                 case "Centímetros":
                     return value * 160934;

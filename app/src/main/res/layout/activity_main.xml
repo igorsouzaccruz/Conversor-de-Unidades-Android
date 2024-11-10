@@ -48,14 +48,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewAlunos" />
 
-    <!-- Spinner para unidade de entrada -->
-
-    <!-- Spinner para unidade de saída -->
-
-    <!-- Botão para iniciar a conversão -->
-
-    <!-- Exibir resultado da conversão -->
-
     <EditText
         android:id="@+id/valorDeEntrada"
         android:layout_width="148dp"
