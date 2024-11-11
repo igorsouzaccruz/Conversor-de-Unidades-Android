@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Conversor de Unidades</string>
     <string name="atividade_final_gr_r_242_n700">Atividade Final GR R-242 N700</string>
-    <string name="alunos_igor_souza_cruz_lucas">Alunos: Igor Souza Cruz e Lucas</string>
+    <string name="alunos_igor_souza_cruz_lucas">Alunos: Igor Souza Cruz e Lucas Araújo</string>
     <string name="digite_um_valor_a_ser_convertido">Digite um valor a ser convertido:</string>
     <string name="converter">Converter</string>
     <string name="resultado">Resultado</string>
